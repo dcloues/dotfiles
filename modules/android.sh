@@ -1,0 +1,1 @@
+path_entry ~/Development/android/android-sdk-mac_86/tools
