@@ -1,0 +1,29 @@
+[user]
+	name = Dustin Cloues
+	email = dustin@clou.es
+[alias]
+	ac = add .
+	ca = commit --amend
+	ci = commit
+	cm = commit -m
+	co = checkout
+	pom = pull origin master
+	sl = stash list
+	ss = status -s
+	lo = log --oneline --decorate --color=auto
+
+[core]
+	excludesfile = ~/.gitexcludes
+	ignorecase = true
+	autocrlf = false
+[http]
+	sslVerify = false
+[color]
+	status = auto
+	branch = auto
+[difftool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
+[pack]
+	windowMemory = 3g
