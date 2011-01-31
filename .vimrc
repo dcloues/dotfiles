@@ -7,6 +7,9 @@ au BufNewFile,BufRead Rakefile set filetype=ruby
 
 let tlist_actionscript_settings = 'actionscript;c:class;f:method;p:property;v:variable'
 
+colorscheme molokai
+set gfn=Anonymous\ Pro\ 11
+
 :set mouse=a
 
 :syntax on
