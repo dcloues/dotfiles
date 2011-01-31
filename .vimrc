@@ -13,7 +13,10 @@ set gfn=Anonymous\ Pro\ 11
 :set mouse=a
 
 :syntax on
+:filetype on
+:filetype plugin on
 :set number
+
 :set tabstop=4
 :set shiftwidth=4
 :set autoindent
@@ -23,3 +26,4 @@ nmap <c-n> :NERDTreeToggle<CR>
 nmap <c-e> :FufCoverageFile<CR>
 nmap <c-f> :NERDTreeFind<CR>
 nmap <c-l> :TlistToggle<CR>
+
