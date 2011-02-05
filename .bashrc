@@ -28,6 +28,9 @@ path_entry ~/bin
 load_modules ~/.dotfiles/modules
 load_modules ~/.dotfiles-private/modules
 
+[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
+
 if [[ -a ~/.bashrc-private ]]; then
     . ~/.bashrc-private
 fi
+
