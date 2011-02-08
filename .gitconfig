@@ -27,3 +27,6 @@
 	tool = Kaleidoscope
 [pack]
 	windowMemory = 3g
+[github]
+	user = dcloues
+	token = 02f2a493bbbd8449d97f19d31d286dd4
