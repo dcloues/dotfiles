@@ -24,3 +24,5 @@ nmap <c-e> :FufCoverageFile<CR>
 nmap <c-f> :NERDTreeFind<CR>
 nmap <c-l> :TlistToggle<CR>
 
+:set gfn=ProggyCleanTT
+colorscheme molokai
