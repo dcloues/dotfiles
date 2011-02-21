@@ -3,7 +3,7 @@ function load_modules() {
         for module in $(ls $1); do
             . $1/$module
         done
-    else
+    elif [[ -n "$DEBUG" ]]; then
         echo "Unable to load modules in $1 (directory does not exist)"
     fi
 }
@@ -15,11 +15,12 @@ function path_entry() {
         else
             export PATH=$1:$PATH
         fi
-    else
+    elif [[ -n "$DEBUG" ]]; then
         echo "Unable to add path entry $1 (directory does not exist)"
     fi
 }
 
+echo "loading custom path entries..."
 path_entry /usr/local/Cellar/python/2.7/bin
 path_entry /usr/local/mysql/bin
 path_entry /usr/local/bin

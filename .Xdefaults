@@ -1,4 +1,11 @@
-urxvt*font: xft:ProggyCleanTT
+!urxvt*font: xft:ProggyCleanTT
+urxvt*font: -*-peep-*-*-*-*-*-*-*-*-*-*-*-*
+urxvt*boldFont:
+urxvt*italicFont:
+urxvt*boldItalicFont:
+urxvt*urgentOnBell: true
+urxvt*visualBell: true
+urxvt*cursorBlink: true
 urxvt.background: #000022
 urxvt.foreground: #cccccc
 URxvt.color0: #2e3436
