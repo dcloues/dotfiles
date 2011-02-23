@@ -1,6 +1,18 @@
+<<<<<<< HEAD
 urxvt*font: xft:ProggyCleanTT
 
 urxvt.background: #111111
+=======
+!urxvt*font: xft:ProggyCleanTT
+urxvt*font: -*-peep-*-*-*-*-*-*-*-*-*-*-*-*
+urxvt*boldFont:
+urxvt*italicFont:
+urxvt*boldItalicFont:
+urxvt*urgentOnBell: true
+urxvt*visualBell: true
+urxvt*cursorBlink: true
+urxvt.background: #000022
+>>>>>>> 95485910d57e11da2937550252707c22a6c16e5a
 urxvt.foreground: #cccccc
 URxvt.color0: #2e3436
 URxvt.color1: #cc0000

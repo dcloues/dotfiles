@@ -32,3 +32,5 @@ nmap <c-l> :TlistToggle<CR>
 map <a-[> :tabprevious<CR>
 map <a-]> :tabnext<CR>
 nnoremap <C-J> a<CR><Esc>k$
+
+colorscheme molokai
