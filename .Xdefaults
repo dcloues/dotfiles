@@ -1,5 +1,6 @@
 urxvt*font: xft:ProggyCleanTT
-urxvt.background: #000022
+
+urxvt.background: #111111
 urxvt.foreground: #cccccc
 URxvt.color0: #2e3436
 URxvt.color1: #cc0000
