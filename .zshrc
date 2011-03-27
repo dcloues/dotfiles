@@ -21,3 +21,4 @@ plugins=(deb git ruby ssh-agent vi-mode)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+bindkey '^R' history-incremental-search-backward
