@@ -11,7 +11,7 @@ import XMonad.Util.Run(spawnPipe)
 import XMonad.Util.EZConfig(additionalKeys)
 import System.IO
 
-layouts = modifiers . onWorkspace "2" threeCol $ layoutHook defaultConfig
+layouts = modifiers . onWorkspace "3" threeCol $ layoutHook defaultConfig
      where
         modifiers = avoidStruts
         threeCol = ThreeColMid 1 (3/100) (1/2)
@@ -25,7 +25,7 @@ main = do
     xmproc <- spawnPipe "/usr/bin/xmobar /home/dcloues/.xmobarrc"
     xmonad $ defaultConfig
         { manageHook = manageHooks
-        , layoutHook = layouts
+        , layoutHook = avoidStruts $ layoutHook defaultConfig
         , logHook = dynamicLogWithPP $ xmobarPP
                         { ppOutput = hPutStrLn xmproc
                         , ppTitle  = xmobarColor "green" "" . shorten 50

@@ -9,6 +9,8 @@ let tlist_actionscript_settings = 'actionscript;c:class;f:method;p:property;v:va
 
 colorscheme molokai
 set gfn=ProggyCleanTT\ 12
+set guioptions=
+"set gfn=peep 10
 
 :set mouse=a
 
@@ -19,6 +21,29 @@ set tags=.tags
 :filetype plugin on
 :set number
 :set showmatch
+
+set showcmd
+set showmode
+set autoread
+
+let mapleader = ","
+let g:mapleader = ","
+
+nmap <leader>w :w!<cr>
+nmap <leader>v :tabnew ~/.vimrc<cr>
+
+autocmd! bufwritepost .vimrc source ~/.vimrc
+
+set wildmenu
+set cmdheight=1
+set incsearch
+set magic
+set showmatch
+set mat=2
+
+set nobackup
+set nowb
+set noswapfile
 
 :set tabstop=4
 :set shiftwidth=4
