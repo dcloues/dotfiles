@@ -22,3 +22,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 bindkey '^R' history-incremental-search-backward
+
+[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
