@@ -1,5 +1,4 @@
-urxvt*font: xft:ProggyCleanTT
-#urxvt*font: -*-peep-*-*-*-*-*-*-*-*-*-*-*-*
+urxvt*font: -*-peep-*-*-*-*-*-*-*-*-*-*-*-*
 urxvt*boldFont:
 urxvt*italicFont:
 urxvt*boldItalicFont:
