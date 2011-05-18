@@ -27,3 +27,5 @@ alias tl="nocorrect todo.sh list"
 alias ta="nocorrect todo.sh add"
 
 alias now="date +%Y%m_%d%H%M"
+
+[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
