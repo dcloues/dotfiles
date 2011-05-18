@@ -22,3 +22,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 bindkey '^R' history-incremental-search-backward
+alias t="nocorrect todo.sh"
+alias tl="nocorrect todo.sh list"
+alias ta="nocorrect todo.sh add"
+
+alias now="date +%Y%m_%d%H%M"
