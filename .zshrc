@@ -16,9 +16,10 @@ export ZSH_THEME="robbyrussell"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(deb git ruby ssh-agent vi-mode)
+plugins=(deb git ruby ssh-agent vi-mode work-related)
 
 source $ZSH/oh-my-zsh.sh
+setopt AUTO_NAME_DIRS
 
 # Customize to your needs...
 bindkey '^R' history-incremental-search-backward
@@ -27,5 +28,20 @@ alias tl="nocorrect todo.sh list"
 alias ta="nocorrect todo.sh add"
 
 alias now="date +%Y%m_%d%H%M"
+
+alias tma="tmux attach -t"
+alias tmr="tmux rename-session"
+alias hs="hg status"
+alias hc="hg commit"
+alias hcm="hg commit -m"
+alias hc="hg log"
+alias hsum="hg summary"
+alias xzf="tar xzf"
+
+alias ll="ls -l"
+alias la="ls -al"
+alias ltr="ls -ltr"
+alias latr="ls -latr"
+alias lS="ls -lS"
 
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
