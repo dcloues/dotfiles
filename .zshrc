@@ -31,5 +31,12 @@ alias hc="hg commit"
 alias hcm="hg commit -m"
 alias hc="hg log"
 alias hsum="hg summary"
+alias xzf="tar xzf"
+
+alias ll="ls -l"
+alias la="ls -al"
+alias ltr="ls -ltr"
+alias latr="ls -latr"
+alias lS="ls -lS"
 
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
