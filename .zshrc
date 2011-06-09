@@ -31,11 +31,22 @@ alias now="date +%Y%m_%d%H%M"
 
 alias tma="tmux attach -t"
 alias tmr="tmux rename-session"
+alias h="hg"
 alias hs="hg status"
 alias hc="hg commit"
 alias hcm="hg commit -m"
 alias hc="hg log"
 alias hsum="hg summary"
+alias hrnb="hg revert --no-backup"
+alias qa="hg qapplied"
+alias qp="hg qpop"
+alias qpu="hg qpush"
+alias qs="hg qseries"
+alias qr="hg qrefresh"
+
+alias dus="du -hs"
+alias dud="du -hc --max-depth=1"
+
 alias xzf="tar xzf"
 
 alias ll="ls -l"

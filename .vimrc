@@ -12,15 +12,16 @@ set gfn=ProggyCleanTT\ 12
 set guioptions=
 "set gfn=peep 10
 
-:set mouse=a
+set mouse=a
+set t_Co=256
 
 set tags=.tags
 
-:syntax on
-:filetype on
-:filetype plugin on
-:set number
-:set showmatch
+syntax on
+filetype on
+filetype plugin on
+set number
+set showmatch
 
 set showcmd
 set showmode
