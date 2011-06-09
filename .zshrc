@@ -55,4 +55,7 @@ alias ltr="ls -ltr"
 alias latr="ls -latr"
 alias lS="ls -lS"
 
+alias -g L="| less"
+alias -g H="| head"
+
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
