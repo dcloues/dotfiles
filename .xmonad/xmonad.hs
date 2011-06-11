@@ -11,10 +11,13 @@ import XMonad.Util.Run(spawnPipe)
 import XMonad.Util.EZConfig(additionalKeys)
 import System.IO
 
-layouts = modifiers . onWorkspace "3" threeCol $ layoutHook defaultConfig
+layouts = modifiers . onWorkspace "2" threeCol $ layoutHook defaultConfig
      where
         modifiers = avoidStruts
-        threeCol = ThreeColMid 1 (3/100) (1/2)
+        threeCol = ThreeColMid 2 (3/100) (1/2)
+
+--layouts = Full ||| tabbed shrinkText defaultTConf ||| Accordianl
+--layouts = avoidStruts . Accordian
 
 manageHooks = composeAll
     [ isDialog --> doF W.shiftMaster <+> doFloat
@@ -25,7 +28,7 @@ main = do
     xmproc <- spawnPipe "/usr/bin/xmobar /home/dcloues/.xmobarrc"
     xmonad $ defaultConfig
         { manageHook = manageHooks
-        , layoutHook = avoidStruts $ layoutHook defaultConfig
+        , layoutHook = layouts
         , logHook = dynamicLogWithPP $ xmobarPP
                         { ppOutput = hPutStrLn xmproc
                         , ppTitle  = xmobarColor "green" "" . shorten 50

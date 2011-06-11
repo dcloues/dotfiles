@@ -5,7 +5,7 @@ urxvt*boldItalicFont:
 urxvt*urgentOnBell: true
 urxvt*visualBell: true
 urxvt*cursorBlink: true
-urxvt.background: #000022
+urxvt.background: #000011
 urxvt.foreground: #aaccaa
 URxvtc.olor0: #2e3436
 URxvt.color1: #cc0000
