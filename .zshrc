@@ -3,7 +3,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-export ZSH_THEME="robbyrussell"
+export ZSH_THEME="sporty_256"
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
@@ -32,6 +32,7 @@ alias now="date +%Y%m_%d%H%M"
 alias tma="tmux attach -t"
 alias tmr="tmux rename-session"
 alias h="hg"
+alias hgd="hg diff"
 alias hs="hg status"
 alias hc="hg commit"
 alias hcm="hg commit -m"
