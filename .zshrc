@@ -16,7 +16,7 @@ export ZSH_THEME="sporty_256"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(deb git ruby ssh-agent vi-mode work-related)
+plugins=(deb git ruby ssh-agent vi-mode gpg-agent work-related)
 
 source $ZSH/oh-my-zsh.sh
 setopt AUTO_NAME_DIRS
