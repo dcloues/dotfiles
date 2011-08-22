@@ -1,4 +1,4 @@
-urxvt*font: -*-peep-*-*-*-*-*-*-*-*-*-*-*-*
+urxvt*font: xft:ProggyCleanTTSZ:antialias=false
 urxvt*boldFont:
 urxvt*italicFont:
 urxvt*boldItalicFont:

@@ -16,10 +16,11 @@ export ZSH_THEME="sporty_256"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(deb git ruby ssh-agent vi-mode gpg-agent work-related)
+plugins=(deb git ruby ssh-agent vi-mode work-related)
 
 source $ZSH/oh-my-zsh.sh
 setopt AUTO_NAME_DIRS
+export EDITOR="vim"
 
 # Customize to your needs...
 bindkey '^R' history-incremental-search-backward
@@ -29,6 +30,7 @@ alias ta="nocorrect todo.sh add"
 
 alias now="date +%Y%m_%d%H%M"
 
+alias ack="ack-grep"
 alias tma="tmux attach -t"
 alias tmr="tmux rename-session"
 alias h="hg"
